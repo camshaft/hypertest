@@ -1,0 +1,32 @@
+{
+  "name": "hypertest",
+  "version": "0.1.0",
+  "description": "Unleash the hypertest on a hyper api",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CamShaft/hypertest"
+  },
+  "keywords": [
+    "hyper",
+    "test"
+  ],
+  "author": "Cameron Bytheway <cameron@theflokk.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CamShaft/hypertest/issues"
+  },
+  "dependencies": {
+    "superagent": "~0.14.9",
+    "queue-component": "git://github.com/component/queue",
+    "emitter": "git://github.com/component/emitter",
+    "simple-debug": "~1.1.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.11.0"
+  }
+}
