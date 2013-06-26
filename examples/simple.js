@@ -56,4 +56,4 @@ function average(numbers) {
   }) / numbers.length;
 };
 
-exec('http://localhost:5000');
+exec(process.argv[2]);
